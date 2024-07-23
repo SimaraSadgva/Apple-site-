@@ -19,7 +19,7 @@
 }
 nav {
   background-color: var(--gray);
-  height: 8vh;
+  height: 10vh;
 }
 .menutop {
   display: flex;
@@ -31,7 +31,7 @@ nav {
   font-size: 1.4em;
 }
 .i {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 .appleLogo {
   display: flex;
@@ -141,7 +141,7 @@ span {
 .titanium img {
   width: 100%;
 }
-.imgtitanium img{
+.imgtitanium img {
   width: 20%;
   margin: 10px 0;
 }
@@ -294,7 +294,6 @@ span {
 }
 .compare {
   text-align: center;
-  max-width: 250px ;
 }
 .container h1,
 .division1 h1 {
@@ -305,7 +304,7 @@ span {
   text-shadow: 1px 1px 3px rgb(0, 145, 255);
 }
 .compare img {
-  width: 50%;
+  width: 40%;
   padding-top: 50px;
 }
 .circle1 img {
@@ -324,6 +323,7 @@ span {
   max-width: 30%;
   margin: 9px 0;
 }
+
 .compare_completely h1 {
   margin: auto;
 }
@@ -346,7 +346,6 @@ hr {
 
 .or {
   margin-top: 40px;
-  
 }
 .or h3 {
   font-weight: 500;
@@ -628,7 +627,6 @@ hr {
   padding: 1em 0;
 }
 
-
 @media only screen and (min-width: 768px) {
   .fa-bars {
     display: none;
@@ -640,13 +638,17 @@ hr {
     padding: 20px 0;
     flex-wrap: wrap;
   }
-  
+  .i {
+    margin-top: 8px;
+  }
   .menudesktop a {
     font-size: 0.9em;
     font-weight: 500;
     padding: 10px;
   }
-  .appleLogo a{padding-bottom: 15px;}
+  .appleLogo a {
+    padding-bottom: 18px;
+  }
   #shopiphone p {
     padding: 1.1em;
     font-size: 1.1em;
@@ -659,9 +661,9 @@ hr {
     width: 20%;
     margin: auto;
   }
-  .imgtitanium img{
+  .imgtitanium img {
     transform: rotate(-90deg);
-    width:  30%;
+    width: 30%;
     object-fit: cover;
   }
   .titanium p {
@@ -769,13 +771,16 @@ hr {
   }
   .airtag {
     padding-right: 30px;
-
   }
-  #airtag1 {width: 100%;}
+  #airtag1 {
+    width: 100%;
+  }
   .card3-bg img {
     width: 100%;
   }
-  .card3-bg{ width: 50%;}
+  .card3-bg {
+    width: 50%;
+  }
   .icon1 {
     width: 25%;
     margin: 20px;
